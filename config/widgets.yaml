@@ -1,0 +1,22 @@
+---
+# https://gethomepage.dev/configs/info-widgets/
+
+- logo:
+    icon: https://akmalov.com/img/logo.svg
+
+- greeting:
+    text_size: xl
+    text: Homepage
+
+- search:
+    provider: custom
+    url: https://yandex.ru/search/smart/?text=
+    target: _blank
+    suggestionUrl: https://suggest.yandex.ru/suggest-ff.cgi?part= # Optional
+    showSearchSuggestions: true
+
+- datetime:
+    locale: de
+    format:
+      dateStyle: short
+      timeStyle: short

@@ -1,0 +1,86 @@
+---
+# https://gethomepage.dev/configs/services/
+# example url from env - href: "{{HOMEPAGE_VAR_YOUR_URL}}"
+# icons - https://github.com/walkxcode/dashboard-icons/tree/main/svg
+
+- Services:
+    - VaultWarden:
+        icon: vaultwarden.svg
+        href: "{{HOMEPAGE_VAR_URL_VAULTWARDEN}}"
+        description: Pass manager
+    - Plex:
+        icon: plex.svg
+        href: "{{HOMEPAGE_VAR_URL_PLEX}}"
+        description: Media Server
+    - Tube Archivist:
+        icon: si-dtube
+        href: "{{HOMEPAGE_VAR_URL_TUBE}}"
+        description: Local youtube archive
+    - Home Assistant:
+        icon: home-assistant-alt.svg
+        href: "{{HOMEPAGE_VAR_URL_HOME}}"
+        description: 
+    - Deluge:
+        icon: deluge.svg
+        href: "{{HOMEPAGE_VAR_URL_DELUGE}}"
+        description: BitTorrent client
+
+- Infrastructure:
+    # row 1
+    - Proxmox:
+        icon: proxmox.svg
+        href: "{{HOMEPAGE_VAR_YOUR_URL}}"
+        description: PVE1
+        ping: pve.local
+    - Proxmox:
+        icon: proxmox.svg
+        href: "{{HOMEPAGE_VAR_YOUR_URL}}"
+        description: PVE3
+        ping: pve3.local
+    - Proxmox:
+        icon: proxmox.svg
+        href: "{{HOMEPAGE_VAR_YOUR_URL}}"
+        description: PVE4
+        ping: pve4.local
+    - Unifi:
+        icon: unifi.svg
+        href: "{{HOMEPAGE_VAR_YOUR_URL}}"
+        description: WiFi
+        ping: unifi.local
+    # row 2
+    - Traefik:
+        icon: traefik.svg
+        href: "{{HOMEPAGE_VAR_YOUR_URL}}"
+        description: Proxy server
+    - DNS:
+        icon: adguard-home.svg
+        href: "{{HOMEPAGE_VAR_YOUR_URL}}"
+        description: Adguard Home
+    - NetBird:
+        icon: netbird.svg
+        href: "{{HOMEPAGE_VAR_YOUR_URL}}"
+        description: network manager 
+
+- Monitoring:
+    - Grafana:
+        icon: grafana.svg
+        href: "{{HOMEPAGE_VAR_YOUR_URL}}"
+        description:
+    - Prometheus:
+        icon: prometheus.svg
+        href: "{{HOMEPAGE_VAR_YOUR_URL}}"
+        # description: test
+
+- Storage:
+    - TrueNAS:
+        icon: truenas.svg
+        href: "{{HOMEPAGE_VAR_YOUR_URL}}"
+        description: File Server
+    - Synology:
+        icon: si-synology
+        href: "{{HOMEPAGE_VAR_YOUR_URL}}"
+        description: File Server
+    - S3:
+        icon: minio-light.svg
+        href: "{{HOMEPAGE_VAR_YOUR_URL}}"
+        description: Minio

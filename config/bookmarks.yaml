@@ -1,0 +1,68 @@
+---
+# https://gethomepage.dev/configs/bookmarks
+# https://simpleicons.org/?q=github
+
+- bookmarks1:
+    - Blog:
+        - abbr: A
+          href: https://akmalov.com/
+          description: web
+    - Mail:
+        - icon: si-googlemessages
+          href: https://mail.timeweb.com/mailbox
+          description: email server
+    - Github:
+        - icon: si-github
+          href: https://github.com/
+          description: github
+    - Gitlab:
+        - icon: gitlab.svg
+          href: https://gitlab.com
+          description: gitlab homelab
+    - Artifact Hub:
+        - icon: si-helm
+          href: https://artifacthub.io
+          description: helm charts
+    - Docker Hub:
+        - icon: docker.svg
+          href: https://dockerhub.com/
+          description: docker images
+
+- bookmarks2:
+    - Cloudflare:
+        - icon: cloudflare.svg
+          href: https://dash.cloudflare.com/
+          description: dns server
+    - Timeweb:
+        - icon: https://timeweb.cloud/my/favicon.ico
+          href: https://timeweb.cloud/my/servers
+    - Yandex cloud:
+        - icon: https://yastatic.net/s3/cloud/console/static/freeze/favicon.png
+          href: https://console.yandex.cloud
+    - VDSina ru:
+        - icon: si-googlecloudstorage
+          href: https://cp.vdsina.ru/vds/list
+          description: ru servers
+    - VDSina com:
+        - icon: si-googlecloudstorage
+          href: https://cp.vdsina.com/vds/list
+          description: external servers
+
+
+- bookmarks3:
+    - Ozone:
+        - abbr: O
+          href: https://www.ozon.ru/
+          description: ozone
+    - Steam:
+        - icon: steam
+          href: https://store.steampowered.com/
+          description: steam
+    - ChatGPT:
+        - icon: chatgpt.svg
+          href: https://chat.openai.com/
+          description: chat ai
+    - Phind:
+        - abbr: P
+          href: https://www.phind.com
+          description: phind
