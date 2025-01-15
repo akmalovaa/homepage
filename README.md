@@ -8,7 +8,7 @@ Project: [gethomepage/homepage](https://github.com/gethomepage/homepage)
 
 ![example](./img/example.png)
 
-deploy doker compose
+deploy docker compose
 
 **Search:** yandex
 
